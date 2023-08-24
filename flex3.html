@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="a">Creativea<br> <span class="b">Marketing</span></p>
+    <div class="flex">
+        
+            <div >Home</div>
+            <div>Services</div>
+            <div>Blog</div>
+            <div>About</div>
+            <div>FAQ</div>
+          
+
+
+            
+       
+
+    </div>
+    <div class="imageform">
+        
+        <form >
+            
+            <h1 class="subscribe">Subscribe Now <br><span class="to">to Our Newsletter </span></h1>
+            <p class="width">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore at iure accusantium recusandae vel officia nisi, mollitia libero nobis alias aut, veniam velit ipsam consequuntur neque porro ullam illo fugit.</p>
+            <input type="text" placeholder="  Name"><br>
+            <input type="text" placeholder="  Email"><br>
+            <button class="button">Send</button>
+        </form>
+        <img src="cm.jpeg" class="transition" alt="">
+        
+    </div>
+</body>
+</html>
+<style>
+    body{
+
+        background-image: url(backgroundimg.webp);
+        background-size: 100%;
+    }
+    
+    
+    
+    .subscribe{
+        color: yellow;
+        margin: top 70px;
+        
+        
+    }
+
+    .width{
+        width: 20rem;
+    }
+    .to{
+        color: white;
+    }
+    .flex{
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+        color: white;
+        margin-right: 20px;
+        margin-top: -1rem;
+
+    }
+    input{
+        border-radius: 15px;
+        height: 20px;
+        margin-top: 10px;
+    }
+    .button{
+        border-radius: 15px ;
+        background-color: yellow;
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    p{
+        color: white;
+      
+    }
+    form{
+        margin-left: 8ss0px;
+        margin-top: 100px;
+    }
+    .a{
+        color: yellow;
+        margin: top 70px;
+        margin-left: 7rem;
+        margin-top: 2rem;
+        
+        
+    }
+    .b{
+        color: white;
+    }
+    .imageform{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+    .transition{
+        transition: width 4s, transform 4s;
+    }
+    .transition:hover{
+        width: 400px;
+        transform: rotate(90deg);
+    }
+
+    
+    @media only screen and (max-width: 600px) {
+        .imageform{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10rem;
+        justify-content: space-around;
+        margin-left: 50px;
+        
+        
+        
+    
+    flex-direction: column-reverse;
+
+}
+    }
+    .width{
+        width: 20rem;
+        
+    }
+    .a{
+        color: yellow;
+        margin: top 70px;
+        margin-left: 7rem;
+        margin-top: 2rem;
+        position: absolute;
+
+       
+}
+p{
+        color: white;
+}
+.flex{
+        display: flex;
+        justify-content: flex-end;
+        gap: 30px;
+        color: white;
+        margin-right: 50px;
+        margin-top: 2rem;
+}
+.transition{
+        transition: width 4s, transform 4s;
+        margin-left:8px ;
+        margin-top: -2rem;
+        border-radius: 20px;
+        width: 20rem;
+    
+        
+    }
+    .transition:hover{
+        width: 300px;
+        transform: rotate(90deg);
+    }
+    form{
+        margin-left: 8ss0px;
+        margin-top: 10px;
+    }
+
+      
+
+    
+    
+</style>
